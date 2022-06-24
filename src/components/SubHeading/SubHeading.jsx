@@ -2,9 +2,9 @@ import React from 'react';
 
 import images from '../../constants/images'
 
-const SubHeading = () => (
+const SubHeading = ({ props }) => (
   <div style={{ marginBottom: '1rem' }}>
-    <p className="p__cormorant">TITLE</p>
+    <p className="p__cormorant">{props}</p>
     <img src={images.spoon} alt="spoon" className='spoon__img' />
   </div>
 );

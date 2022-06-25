@@ -1,8 +1,6 @@
 import React from 'react';
 import linkImages from '../../constants/images';
 
-
-
 import './AboutUs.css';
 
 const AboutUs = () => (
